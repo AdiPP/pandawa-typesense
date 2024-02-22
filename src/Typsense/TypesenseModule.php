@@ -1,10 +1,12 @@
 <?php
 declare(strict_types=1);
 
-use Engine\TypesenseEngine;
+namespace Typesense;
+
 use Laravel\Scout\EngineManager;
 use Pandawa\Component\Module\AbstractModule;
 use Typesense\Client as Typesense;
+use Typesense\Engine\TypesenseEngine;
 
 /**
  * @author  Adi Permana Putra <adiputrapermana@gmail.com>

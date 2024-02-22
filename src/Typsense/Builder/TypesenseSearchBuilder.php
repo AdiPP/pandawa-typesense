@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Builder;
+namespace Typesense\Builder;
 
 /**
  * @author  Adi Permana Putra <adiputrapermana@gmail.com>

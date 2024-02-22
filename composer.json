@@ -6,7 +6,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Pandawa\\Typesense\\": "src/"
+            "Typesense\\": "src/"
         }
     },
     "authors": [
