@@ -1,0 +1,35 @@
+{
+    "name": "pandawa/typesense",
+    "description": "Typesense adapter for pandawa",
+    "type": "library",
+    "license": "MIT",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Pandawa\\Typesense\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adi Putra",
+            "email": "adiputrapermana@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "typesense/typesense-php": "^4.9",
+        "symfony/http-client": "^6.0",
+        "pandawa/pandawa": "^4.2",
+        "laravel/scout": "^9.8"
+    },
+    "extra": {
+        "branc-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
